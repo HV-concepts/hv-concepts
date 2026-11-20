@@ -80,12 +80,13 @@ a { color: var(--accent); }
 
 .cards {
   display: grid; gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 .card {
   background: #fff; border: 1px solid var(--border);
   border-radius: var(--radius); padding: 24px;
 }
+.card h3 { hyphens: auto; overflow-wrap: break-word; }
 .card p { color: var(--muted); margin: 0; }
 
 /* Footer */
